@@ -32,7 +32,6 @@
 
 version: 3.5.4
 
-@snap[midpoint span-80 text-center]
 ```
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
@@ -41,8 +40,16 @@ version: 3.5.4
     &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
 &lt;/mirror>
 ```
-@snapend
 
+---
+```XML
+<mirror>
+    <id>nexus-naiyun</id>
+    <mirrorOf>*</mirrorOf>
+    <name>Nexus Naiyun</name>
+    <url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
+</mirror>
+```
 
 +++
 
