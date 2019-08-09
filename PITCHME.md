@@ -26,14 +26,14 @@
 @snapend
 
 
-+++?highlight : monokai
++++?code=&lang=xml&highlight : monokai
 
 ### Maven
 
 version： 3.5.4  
 
 
-```xml
+```
 <mirror>
     <id>nexus-naiyun</id>
     <mirrorOf>*</mirrorOf>
