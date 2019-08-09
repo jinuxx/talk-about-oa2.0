@@ -26,13 +26,13 @@
 @snapend
 
 
----?color=white&hightligth=
+---?color=white&hightligth=monokai
 
 #### Maven
 
 version: 3.5.4
 
-@snap[midpoint span-100 text-center]
+@snap[midpoint span-80 text-center]
 ```
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
