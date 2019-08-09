@@ -15,4 +15,4 @@ version： 3.5.4
 
 ### GraphQL
 @fa[quote-left](A query language for your API)
-![GRAPHQL]([assets/img/graphql.png](https://www.baidu.com/img/bd_logo1.png?where=super))
+![GRAPHQL](https://www.baidu.com/img/bd_logo1.png?where=super)
