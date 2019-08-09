@@ -6,7 +6,7 @@
 @snap[west span-40 text-center]
 
 
-@fa[quote-left quote-graphql](工欲善其事<br>必先利其器)
+@fa[quote-left](工欲善其事<br>必先利其器)
 ![stackoverflow](https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg)
 ![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 ![百度](https://www.baidu.com/img/bd_logo1.png?where=super)
@@ -14,7 +14,7 @@
 @snapend
 
 @snap[north-east span-40 text-08]
-@box[bg-green](Part 1 # Maven)
+@box[bg-green](Part 1 # 环境与工具)
 @snapend
 
 @snap[east span-40 text-08]
@@ -26,13 +26,13 @@
 @snapend
 
 
-+++?color=white&hightligth=
+---?color=white&hightligth=
 
-### Maven
+#### Maven
 
 version: 3.5.4
 
-
+@snap[center span-40 text-center]
 ```
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
@@ -41,6 +41,8 @@ version: 3.5.4
     &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
 &lt;/mirror>
 ```
+@snapend
+
 
 +++
 
