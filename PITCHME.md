@@ -7,7 +7,7 @@
 @snap[west span-40 text-center]
 
 
-@fa[quote-left](工欲善其事<br>必先利其器)
+@fa[north quote-left](工欲善其事<br>必先利其器)
 
 @ul[text-07]
 - 框架搭建过程中的思路
@@ -15,7 +15,10 @@
 - 我会用到的工具
 - @ulend
 
+@snap
 ![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+@snapend
+
 @snapend
 
 @snap[north-east span-40 text-08]
