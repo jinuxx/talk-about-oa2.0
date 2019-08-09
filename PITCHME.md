@@ -7,10 +7,10 @@
 
 
 @fa[quote-left](工欲善其事<br>必先利其器)
-![stackoverflow](https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg)
+* 框架搭建过程中的思路
+* 遇到的问题
+* 我会用到的工具
 ![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
-![百度](https://www.baidu.com/img/bd_logo1.png?where=super)
-
 @snapend
 
 @snap[north-east span-40 text-08]
@@ -40,7 +40,6 @@ version: 3.5.4
     &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
 &lt;/mirror>
 ```
----?code=xml/maven_setting.xml&lang=xml&title=镜像源
 
 
 +++
