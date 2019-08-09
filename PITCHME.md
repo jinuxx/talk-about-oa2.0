@@ -41,20 +41,6 @@ version: 3.5.4
 &lt;/mirror>
 ```
 
-
----?title=xml
-
-```xml
-<mirror>
-    <id>nexus-naiyun</id>
-    <mirrorOf>*</mirrorOf>
-    <name>Nexus Naiyun</name>
-    <url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
-</mirror>
-```
-
-
-
 +++
 
 ### GraphQL
