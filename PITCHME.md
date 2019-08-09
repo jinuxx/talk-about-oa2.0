@@ -26,7 +26,7 @@
 @snapend
 
 
----?color=white&hightligth=monokai
+---
 
 #### Maven
 
@@ -39,16 +39,6 @@ version: 3.5.4
     &lt;name>Nexus Naiyun&lt;/name>
     &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
 &lt;/mirror>
-```
-
----
-```XML
-<mirror>
-    <id>nexus-naiyun</id>
-    <mirrorOf>*</mirrorOf>
-    <name>Nexus Naiyun</name>
-    <url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
-</mirror>
 ```
 
 +++
