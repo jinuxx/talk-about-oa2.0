@@ -41,8 +41,9 @@ version: 3.5.4
 &lt;/mirror>
 ```
 
+
 ---lang=xml
-@snap
+
 ```xml
 <mirror>
     <id>nexus-naiyun</id>
@@ -51,7 +52,9 @@ version: 3.5.4
     <url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
 </mirror>
 ```
-@snapend
+
+
+
 +++
 
 ### GraphQL
