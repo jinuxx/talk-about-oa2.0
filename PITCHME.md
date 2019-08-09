@@ -28,13 +28,13 @@
 
 +++
 
-```html
-<mirror>
-    <id>nexus-naiyun</id>
-    <mirrorOf>*</mirrorOf>
-    <name>Nexus Naiyun</name>
-    <url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
-</mirror>
+```
+\<mirror>
+    \<id>nexus-naiyun</id>
+    \<mirrorOf>*</mirrorOf>
+    \<name>Nexus Naiyun</name>
+    \<url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
+\</mirror>
 ```
 
 ---
