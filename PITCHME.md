@@ -28,7 +28,7 @@
 
 +++
 
-```xml
+```html
 <mirror>
     <id>nexus-naiyun</id>
     <mirrorOf>*</mirrorOf>
