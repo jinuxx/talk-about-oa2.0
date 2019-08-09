@@ -14,15 +14,15 @@
 @snapend
 
 @snap[north-east span-40 text-08]
-@box[bg-green](# Maven)
+@box[bg-green](Part 1 # Maven)
 @snapend
 
 @snap[east span-40 text-08]
-@box[bg-blue](# Spring Cloud)
+@box[bg-blue](Part 2 # Spring Cloud)
 @snapend
 
 @snap[south-east span-40 text-08]
-@box[bg-gold](# 规范与约定)
+@box[bg-gold](Part 3 # 规范与约定)
 @snapend
 
 
