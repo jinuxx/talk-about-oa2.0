@@ -5,28 +5,25 @@
 
 @snap[west span-40 text-center]
 
-### 工欲善其事必先利其器
+### 工欲善其事 必先利其器
 @fa[quote-left quote-graphql](熟悉自己的开发工具很重要)
-![百度](https://www.baidu.com/img/bd_logo1.png?where=super)
-![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 ![stackoverflow](https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg)
+![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+![百度](https://www.baidu.com/img/bd_logo1.png?where=super)
 
 @snapend
 
 @snap[north-east span-40 text-08]
-@box[bg-green](Step 1. Schema # Define types using SDL)
+@box[bg-green](# Maven)
 @snapend
 
 @snap[east span-40 text-08]
-@box[bg-blue](Step 2. Query # Fetch data with Queries)
+@box[bg-blue](# Spring Cloud)
 @snapend
 
 @snap[south-east span-40 text-08]
-@box[bg-gold](Step 3. Mutate # Modify data with Mutations)
+@box[bg-gold](# 规范与约定)
 @snapend
-
-
-Maven / Intellij Idea
 
 
 +++
