@@ -26,14 +26,9 @@
 @snapend
 
 
-+++?code=&lang=xml&highlight : monokai
++++
 
-### Maven
-
-version： 3.5.4  
-
-
-```
+```xml
 <mirror>
     <id>nexus-naiyun</id>
     <mirrorOf>*</mirrorOf>
@@ -43,6 +38,8 @@ version： 3.5.4
 ```
 
 ---
+
+### python
 
 ```
 defmodule GenMetrics.GenStage.Monitor do
