@@ -42,7 +42,7 @@ version: 3.5.4
 ```
 
 
----?lang=xml
+---?title=xml
 
 ```xml
 <mirror>
