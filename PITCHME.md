@@ -17,7 +17,7 @@ version： 3.5.4
 @fa[quote-left](A query language for your API)
 ![GRAPHQL](https://www.baidu.com/img/bd_logo1.png?where=super)
 
----
+
 
 ---?color=linear-gradient(90deg, white 50%, black 50%)
 
