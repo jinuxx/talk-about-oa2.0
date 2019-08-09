@@ -8,13 +8,9 @@
 
 @fa[quote-left](工欲善其事<br>必先利其器)
 
-@ul
-
 - 框架搭建过程中的思路
 - 遇到的问题
 - 我会用到的工具
-
-@ulend
 
 ![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 @snapend
@@ -48,6 +44,19 @@ version: 3.5.4
 ```
 
 
+---
+
+```java
+    <modules>
+        <module>common</module>
+        <module>config-server</module>
+        <module>eureka-server</module>
+        <module>gateway</module>
+        <module>services</module>
+        <module>admin-monitor</module>
+        <module>gateway-app</module>
+    </modules>
+```
 +++
 
 ### GraphQL
