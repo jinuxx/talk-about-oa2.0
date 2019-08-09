@@ -29,12 +29,12 @@
 +++
 
 ```
-\<mirror>
-    \<id>nexus-naiyun</id>
-    \<mirrorOf>*</mirrorOf>
-    \<name>Nexus Naiyun</name>
-    \<url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
-\</mirror>
+&lt;mirror>
+    &lt;id>nexus-naiyun</id>
+    &lt;mirrorOf>*</mirrorOf>
+    &lt;name>Nexus Naiyun</name>
+    &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
+&lt;/mirror>
 ```
 
 ---
