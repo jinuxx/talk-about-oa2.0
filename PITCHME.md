@@ -40,6 +40,14 @@ version: 3.5.4
     &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
 &lt;/mirror>
 ```
+---
+
+#### Maven
+
+version: 3.5.4
+
+@code[xml](./xml/maven_setting.xml)
+
 
 +++
 
