@@ -33,9 +33,9 @@
 
 ---
 
-@snap[north span-100 text-08]
+@snap[north span-100 text-06]
 ## 工欲善其事 必先利其器
-Simple, fast customization for any Slide Deck.
+请熟练使用自己的生产工具
 @snapend
 
 @snap[west span-33 text-center]

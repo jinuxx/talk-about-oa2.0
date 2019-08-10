@@ -1,3 +1,13 @@
-.mt{
-    margin-top: 15px
+.mt, .reveal ul{
+    margin-top: 15px !important
+}
+
+.border-solid-black {
+    border-radius: 16px;
+    border: 1px solid black !important;
+  }
+  
+.border-solid-black {
+    border-radius: 16px;
+    border: 1px dashed black !important;
 }
