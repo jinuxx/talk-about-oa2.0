@@ -82,7 +82,7 @@ version: 3.5.4
 
 
 ---
-@snap[west]
+@snap[west span-45]
 ### SpringCloud
 @fa[quote-left](快速搭建分布式系统)
 #### [Version @fa[external-link]](https://spring.io/projects/spring-cloud#release-trains)
@@ -91,7 +91,7 @@ version: 3.5.4
 - Spring Cloud: Finchley.SR2(Edgware.SR6)
 @ulend
 @snapend
-@snap[east]
+@snap[east span-45]
 ![VERSION](assets/img/spring-cloud-version.png)
 @snapend
 
