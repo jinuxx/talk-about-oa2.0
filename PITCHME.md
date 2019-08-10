@@ -126,7 +126,7 @@ version: 3.5.4
     &lt;dependency>
         &lt;groupId>org.projectlombok&lt;/groupId>
         &lt;artifactId>lombok&lt;/artifactId>
-        &lt;version>$\{lombok.version}&lt;/version>
+        &lt;version>$\\{lombok.version}&lt;/version>
     &lt;/dependency>
     ...
 &lt;/dependencies>
