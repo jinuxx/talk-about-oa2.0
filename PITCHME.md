@@ -75,14 +75,25 @@ version: 3.5.4
 &lt;/mirror>
 ```
 @snapend
-@snap[text-06]
+
+@snap[text-06 mt]
 [推荐]配置文件位置: `C:\Users\<User Name>\.m2\settings.xml`
 @snapend
-+++
 
-### GraphQL
-@fa[quote-left](A query language for your API)
-![GRAPHQL](https://www.baidu.com/img/bd_logo1.png?where=super)
 
+---
+
+### SpringCloud
+@fa[quote-left](快速搭建分布式系统)
+@snap[west]
+#### [Version @fa[external-link](https://spring.io/projects/spring-cloud#release-trains)
+@ul
+- Spring Boot: 2.0.9.RELEASE(1.5.19.RELAESE)
+- Spring Cloud: Finchley.SR2(Edgware.SR6)
+@ulend
+@snapend
+@snap[east]
+![image](assets\img\spring-cloud-version.png)
+@snapend
 
 
