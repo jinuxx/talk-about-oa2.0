@@ -256,25 +256,25 @@ version: 3.5.4
 ### eureka-server
 @snap[border-dashed-black]
 ```java
-package com.naiyun;
+    package com.naiyun;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
+    import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-/**
- * eureka 注册中心
- * @author XuJin
- * @since 2019/8/10 10:41
- */
-@SpringBootApplication
-@EnableEurekaServer
-public class EurekaServer {
+    /**
+    * eureka 注册中心
+    * @author XuJin
+    * @since 2019/8/10 10:41
+    */
+    @SpringBootApplication
+    @EnableEurekaServer
+    public class EurekaServer {
 
-    public static void main(String[] args) {
-        SpringApplication.run(EurekaServer.class);
+        public static void main(String[] args) {
+            SpringApplication.run(EurekaServer.class);
+        }
     }
-}
 ```
 @snapend
 
