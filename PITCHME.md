@@ -234,12 +234,12 @@ version: 3.5.4
 ---
 ### eureka-server
 ```xml
-&Lt;dependencies&gt;
-    &Lt;dependency&gt;
-        &Lt;groupId&gt;org.springframework.cloud&Lt;/groupId&gt;
-        &Lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&Lt;/artifactId&gt;
-    &Lt;/dependency&gt;
-&Lt;/dependencies&gt;
+&lt;dependencies&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+&lt;/dependencies&gt;
 ```
 
 +++
@@ -280,5 +280,43 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
+```
+@snapend
+
+
+---
+### service 准备业务模块
+@snap[border-dashed-black]
+```xml
+&lt;packaging&gt;pom&lt;/packaging&gt;
+&lt;dependencies&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-client&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+&lt;/dependencies&gt;
+```
+@snapend
+
++++
+
+### service-user
+@snap[border-dashed-black]
+```yml
+spring:
+  application:
+    name: user
+
+server:
+  port: 8801
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
 ```
 @snapend
