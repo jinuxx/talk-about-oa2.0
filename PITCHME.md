@@ -1,7 +1,7 @@
 @snap[text=03]
 ## 基于 spring cloud 的 OA2.0 框架搭建开发和问题解决
 @snapend
-徐 进
+### 徐 进
 
 
 ---?color=linear-gradient(90deg, white 50%, black 50%)
