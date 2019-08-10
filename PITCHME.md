@@ -82,7 +82,7 @@ version: 3.5.4
 
 
 ---
-@snap[west span-45]
+@snap[west span-45 text-blue]
 ### SpringCloud
 @fa[quote-left text-08](快速搭建分布式系统)
 @snap[mt]
