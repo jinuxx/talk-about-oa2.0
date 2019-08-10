@@ -102,62 +102,93 @@ version: 3.5.4
 [![VERSION](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)](https://spring.io/projects/spring-cloud#release-trainshttps://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)
 
 +++
-@title[pom.xml]
 ##### pom.xml 文件配置
 
 @snap[border-dashed-black]
 ```
 ...
-&lt;parent>
-    &lt;groupId>org.springframework.boot&lt;/groupId>
-    &lt;artifactId>spring-boot-starter-parent&lt;/artifactId>
-    &lt;version>2.0.9.RELEASE&lt;/version>
-&lt;/parent>
+&lt;parent&gt;
+    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt;
+    &lt;version&gt;2.0.9.RELEASE&lt;/version&gt;
+&lt;/parent&gt;
 
-&lt;properties>
-    &lt;java.version>1.8&lt;/java.version>
-    &lt;!-- 乱码问题 -->
-    &lt;project.build.sourceEncoding>UTF-8&lt;/project.build.sourceEncoding>
-    &lt;project.reporting.outputEncoding>UTF-8&lt;/project.reporting.outputEncoding>
-    &lt;!-- 编译器版本问题 -->
-    &lt;maven.compiler.source>1.8&lt;/maven.compiler.source>
-    &lt;maven.compiler.target>1.8&lt;/maven.compiler.target>
+&lt;properties&gt;
+    &lt;java.version&gt;1.8&lt;/java.version&gt;
+    &lt;!-- 乱码问题 --&gt;
+    &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;
+    &lt;project.reporting.outputEncoding&gt;UTF-8&lt;/project.reporting.outputEncoding&gt;
+    &lt;!-- 编译器版本问题 --&gt;
+    &lt;maven.compiler.source&gt;1.8&lt;/maven.compiler.source&gt;
+    &lt;maven.compiler.target&gt;1.8&lt;/maven.compiler.target&gt;
     ...
-    &lt;spring-cloud.version>Finchley.SR2&lt;/spring-cloud.version>
-    &lt;lombok.version>1.18.4&lt;/lombok.version>
-&lt;/properties>
+    &lt;spring-cloud.version&gt;Finchley.SR2&lt;/spring-cloud.version&gt;
+    &lt;lombok.version&gt;1.18.4&lt;/lombok.version&gt;
+&lt;/properties&gt;
 
 ...
 ```
 @snapend
 
 +++
-@title[pom.xml]
 ##### pom.xml 文件配置
+
 @snap[border-dashed-black]
 ```
 ...
-&lt;!-- 声明依赖包，不引入 -->
-&lt;dependencyManagement>
-    &lt;dependency>
-        &lt;groupId>org.springframework.cloud&lt;/groupId>
-        &lt;artifactId>spring-cloud-dependencies&lt;/artifactId>
-        &lt;version>Finchley.SR2&lt;/version>
-        &lt;type>pom&lt;/type>
-        &lt;scope>import&lt;/scope>
-    &lt;/dependency>
+&lt;!-- 声明依赖包，不引入 --&gt;
+&lt;dependencyManagement&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-cloud-dependencies&lt;/artifactId&gt;
+        &lt;version&gt;${spring-cloud.version}&lt;/version&gt;
+        &lt;type&gt;pom&lt;/type&gt;
+        &lt;scope&gt;import&lt;/scope&gt;
+    &lt;/dependency&gt;
     ...
-&lt;/dependencyManagement>
+&lt;/dependencyManagement&gt;
 ...
-&lt;!-- 自动引入依赖包 -->
-&lt;dependencies>
-    &lt;dependency>
-        &lt;groupId>org.projectlombok&lt;/groupId>
-        &lt;artifactId>lombok&lt;/artifactId>
-        &lt;version>1.18.4&lt;/version>
-    &lt;/dependency>
+&lt;!-- 自动引入依赖包 --&gt;
+&lt;dependencies&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
+        &lt;artifactId&gt;lombok&lt;/artifactId&gt;
+        &lt;version&gt;${lombok.version}&lt;/version&gt;
+    &lt;/dependency&gt;
     ...
-&lt;/dependencies>
+&lt;/dependencies&gt;
+
+...
+```
+@snapend
+
++++
+##### pom.xml 文件配置
+
+@snap[border-dashed-black]
+```
+...
+&lt;!-- 声明依赖包，不引入 --&gt;
+&lt;dependencyManagement&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-cloud-dependencies&lt;/artifactId&gt;
+        &lt;version&gt;Finchley.SR2&lt;/version&gt;
+        &lt;type&gt;pom&lt;/type&gt;
+        &lt;scope&gt;import&lt;/scope&gt;
+    &lt;/dependency&gt;
+    ...
+&lt;/dependencyManagement&gt;
+...
+&lt;!-- 自动引入依赖包 --&gt;
+&lt;dependencies&gt;
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
+        &lt;artifactId&gt;lombok&lt;/artifactId&gt;
+        &lt;version&gt;1.18.4&lt;/version&gt;
+    &lt;/dependency&gt;
+    ...
+&lt;/dependencies&gt;
 
 ...
 ```
