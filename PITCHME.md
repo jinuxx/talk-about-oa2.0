@@ -126,7 +126,7 @@ version: 3.5.4
     &lt;dependency>
         &lt;groupId>org.projectlombok&lt;/groupId>
         &lt;artifactId>lombok&lt;/artifactId>
-        &lt;version>\${lombok.version}&lt;/version>
+        &lt;version>&sect;{lombok.version}&lt;/version>
     &lt;/dependency>
     ...
 &lt;/dependencies>
@@ -146,7 +146,7 @@ version: 3.5.4
     &lt;dependency>
         &lt;groupId>org.springframework.cloud&lt;/groupId>
         &lt;artifactId>spring-cloud-dependencies&lt;/artifactId>
-        &lt;version>\${spring-cloud.version}&lt;/version>
+        &lt;version>&sect;{spring-cloud.version}&lt;/version>
         &lt;type>pom&lt;/type>
         &lt;scope>import&lt;/scope>
     &lt;/dependency>
