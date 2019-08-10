@@ -411,7 +411,7 @@ spring:
 ```
 @snapend
 
-@snap[north]
+@snap[north span-100]
 @ul
 - 还是太麻烦 -> 改造 pom.xml
 @ulend
