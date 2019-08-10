@@ -4,20 +4,18 @@
 
 ---?color=linear-gradient(90deg, white 50%, black 50%)
 
-@snap[west span-40 text-center]
-
-
+@snap[north-west span-40 text-center]
 @fa[quote-left](工欲善其事<br>必先利其器)
+@snapend
 
-@ul[text-07 mt]
+@snap[west span-40 text-center]
+@ul[text-07]
 - 框架搭建过程中的思路
 - 遇到的问题
 - 我会用到的工具
 - @ulend
 
-@snap[mt]
 ![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
-@snapend[end]
 
 @snapend
 
