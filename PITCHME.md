@@ -50,7 +50,7 @@
 @box[border-solid-gray](Maven (3.5.4.])
 @snapend
 
-@snap[south span-100 text-07]
+@snap[south span-100 text-07 text-right]
 [华为开源镜像站](https://mirrors.huaweicloud.com/)
 @snapend
 
