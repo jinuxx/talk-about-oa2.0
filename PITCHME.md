@@ -51,7 +51,8 @@
 @snapend
 
 @snap[south span-100 text-07 text-right]
-[华为开源镜像站](https://mirrors.huaweicloud.com/)
+<!-- [华为开源镜像站](https://mirrors.huaweicloud.com/) -->
+[For all the details see the GitPitch Theme Template Docs @fa[external-link]](https://gitpitch.com/docs/themes/default)
 @snapend
 
 @snap[south span-26]
