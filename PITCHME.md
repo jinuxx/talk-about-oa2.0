@@ -421,6 +421,19 @@ spring:
 @snap[text-09 text-blue]
 ####  common
 @snapend
+```
+│  ├─common
+│  │  │
+│  │  ├─common-log----------------------------- logback日志配置 想办法把配置抽出来
+│  │  │
+│  │  ├─common-base---------------------------- 静态常量和配置与大部分共用工具类
+│  │  │
+│  │  ├─common-web----------------------------- web 部分
+│  │  │
+│  │  ├─common-jwt----------------------------- jwt 部分
+│  │  │
+│  │  ├─common-feign-client-------------------- feign 客户端
+```
 
 ---
 @snap[text-09 text-blue]
