@@ -234,12 +234,12 @@ version: 3.5.4
 ---
 ### eureka-server
 ```xml
-<dependencies>
-    <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-    </dependency>
-</dependencies>
+&Lt;dependencies&gt;
+    &Lt;dependency&gt;
+        &Lt;groupId&gt;org.springframework.cloud&Lt;/groupId&gt;
+        &Lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&Lt;/artifactId&gt;
+    &Lt;/dependency&gt;
+&Lt;/dependencies&gt;
 ```
 
 +++
