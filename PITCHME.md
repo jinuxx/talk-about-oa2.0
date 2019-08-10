@@ -98,3 +98,30 @@ version: 3.5.4
 @snapend
 
 
++++
+[![VERSION](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)](https://spring.io/projects/spring-cloud#release-trains)
+
++++
+@title[pom.xml]
+
+@snap[border-dashed-black]
+```
+&lt;mirror>
+    &lt;id>nexus-naiyun&lt;/id>
+    &lt;mirrorOf>*&lt;/mirrorOf>
+    &lt;name>Nexus Naiyun&lt;/name>
+    &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
+&lt;/mirror>
+```
+@snapend
+
+@snap[border-dashed-black]
+```
+&lt;mirror>
+    &lt;id>nexus-naiyun&lt;/id>
+    &lt;mirrorOf>*&lt;/mirrorOf>
+    &lt;name>Nexus Naiyun&lt;/name>
+    &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
+&lt;/mirror>
+```
+@snapend
