@@ -50,17 +50,21 @@
 @box[border-solid-gray](Maven (3.5.4.])
 @snapend
 
+@snap[south span-100 text-07]
+[华为开源镜像站](https://mirrors.huaweicloud.com/)
+@snapend
+
 @snap[south span-26]
 ![LEGO](assets/img/lego.png)
 @snapend
 
-+++
+---
 
 #### Maven
 
 version: 3.5.4
 
-@snap[border-dashed-black]
+@snap[border-dashed-gray]
 ```
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
