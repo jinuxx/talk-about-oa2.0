@@ -264,11 +264,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-/***
- ** eureka 注册中心
- ** @author XuJin
- ** @since 2019/8/10 10:41
- */
 @SpringBootApplication
 @EnableEurekaServer
 public class EurekaServer {
@@ -325,6 +320,25 @@ spring:
 
 server:
   port: 8801
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+```
+@snapend
+
++++
+
+### service-website
+@snap[border-dashed-black]
+```yml
+spring:
+  application:
+    name: website
+
+server:
+  port: 8802
 
 eureka:
   client:
