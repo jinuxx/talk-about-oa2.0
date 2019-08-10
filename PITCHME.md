@@ -1,4 +1,6 @@
+@snap[text=03]
 ## 基于 spring cloud 的 OA2.0 框架搭建开发和问题解决
+@snapend
 徐 进
 
 
@@ -13,10 +15,6 @@
 - 遇到的问题
 - 我会用到的工具
 @ulend
-@snap
-@snapend
-
-![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 
 @snapend
 
