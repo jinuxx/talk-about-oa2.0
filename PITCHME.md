@@ -108,6 +108,12 @@ version: 3.5.4
 @snap[border-dashed-black]
 ```
 ...
+&lt;parent>
+    &lt;groupId>org.springframework.boot&lt;/groupId>
+    &lt;artifactId>spring-boot-starter-parent&lt;/artifactId>
+    &lt;version>2.0.9.RELEASE&lt;/version>
+&lt;/parent>
+
 &lt;properties>
     &lt;java.version>1.8&lt;/java.version>
     &lt;!-- 乱码问题 -->
@@ -120,16 +126,6 @@ version: 3.5.4
     &lt;spring-cloud.version>Finchley.SR2&lt;/spring-cloud.version>
     &lt;lombok.version>1.18.4&lt;/lombok.version>
 &lt;/properties>
-...
-&lt;!-- 自动引入依赖包 -->
-&lt;dependencies>
-    &lt;dependency>
-        &lt;groupId>org.projectlombok&lt;/groupId>
-        &lt;artifactId>lombok&lt;/artifactId>
-        &lt;version>$\\{lombok.version}&lt;/version>
-    &lt;/dependency>
-    ...
-&lt;/dependencies>
 
 ...
 ```
@@ -146,25 +142,23 @@ version: 3.5.4
     &lt;dependency>
         &lt;groupId>org.springframework.cloud&lt;/groupId>
         &lt;artifactId>spring-cloud-dependencies&lt;/artifactId>
-        &lt;version>$\{spring-cloud.version}&lt;/version>
+        &lt;version>Finchley.SR2&lt;/version>
         &lt;type>pom&lt;/type>
         &lt;scope>import&lt;/scope>
     &lt;/dependency>
     ...
 &lt;/dependencyManagement>
 ...
+&lt;!-- 自动引入依赖包 -->
+&lt;dependencies>
+    &lt;dependency>
+        &lt;groupId>org.projectlombok&lt;/groupId>
+        &lt;artifactId>lombok&lt;/artifactId>
+        &lt;version>1.18.4&lt;/version>
+    &lt;/dependency>
+    ...
+&lt;/dependencies>
+
+...
 ```
-<pre>
-```xml
-    <modules>
-        <module>common</module>
-        <module>config-server</module>
-        <module>eureka-server</module>
-        <module>gateway</module>
-        <module>services</module>
-        <module>admin-monitor</module>
-        <module>gateway-app</module>
-    </modules>
-```
-</pre>
 @snapend
