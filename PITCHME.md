@@ -484,14 +484,14 @@ eureka:
 @snap[text-09 text-blue]
 [zipkin 链路跟踪](http://192.168.8.88:9411/zipkin/)
 @snapend
-![zipkin](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/zipkin.jpg)
+![zipkin](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/zipkin.png)
 
 
 ---
 @snap[text-09 text-blue]
 [spring-boot-admin(SBA)](http://192.168.8.88:8800/#/wallboard)
 @snapend
-![spring-boot-admin](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/spring-boot-admin)
+![spring-boot-admin](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/spring-boot-admin.png)
 
 ---
 @snap[text-09]
