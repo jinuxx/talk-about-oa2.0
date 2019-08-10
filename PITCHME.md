@@ -7,7 +7,6 @@
 
 
 ---?color=linear-gradient(90deg, white 50%, black 50%)
-
 @snap[west span-40 text-center]
 
 @ul[text-07 mt]
@@ -32,7 +31,6 @@
 
 
 ---
-
 @snap[north span-100 text-06]
 ## 工欲善其事 必先利其器
 请熟练使用自己的生产工具
@@ -59,8 +57,8 @@
 ![LEGO](assets/img/lego.png)
 @snapend
 
----
 
+---
 #### Maven
 
 version: 3.5.4
@@ -99,9 +97,12 @@ version: 3.5.4
 
 
 +++
+@title[架构图]
 [![VERSION](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)
 
+
 +++
+@title[模块划分]
 ```
 ├─naiyun-oa------------------------------------ 父项目，公共依赖
 │  │
@@ -127,6 +128,7 @@ version: 3.5.4
 
 ```
 
+
 +++
 ```
 │  │  │
@@ -147,9 +149,10 @@ version: 3.5.4
 │  │  ├─service-personnel---------------------- 人事
 ```
 
+
 ---
 ##### pom.xml 文件配置
-
+@title[顶级pom配置]
 @snap[border-dashed-black]
 ```xml
 ...
@@ -176,6 +179,7 @@ version: 3.5.4
 ...
 ```
 @snapend
+
 
 +++
 ##### pom.xml 文件配置
@@ -209,8 +213,10 @@ version: 3.5.4
 ```
 @snapend
 
+
 +++
 ##### pom.xml 文件配置
+
 
 @snap[border-dashed-black]
 ```xml
@@ -231,8 +237,10 @@ version: 3.5.4
 开始创建模块 ->
 @snapend
 
+
 ---
 ### eureka-server
+@snap[border-dashed-black]
 ```xml
 &lt;dependencies&gt;
     &lt;dependency&gt;
@@ -241,6 +249,8 @@ version: 3.5.4
     &lt;/dependency&gt;
 &lt;/dependencies&gt;
 ```
+@snapend
+
 
 +++
 ### eureka-server
@@ -301,6 +311,7 @@ eureka:
 &lt;/dependencies&gt;
 ```
 @snapend
+
 
 +++
 
