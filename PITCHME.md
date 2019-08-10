@@ -230,3 +230,39 @@ version: 3.5.4
 @snap[text-right text-blue]
 开始创建模块 ->
 @snapend
+
+---
+### eureka-server
+```java
+package com.naiyun;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+/**
+ * eureka 注册中心
+ * @author XuJin
+ * @since 2019/8/10 10:41
+ */
+@SpringBootApplication
+@EnableEurekaServer
+public class EurekaServer {
+
+    public static void main(String[] args) {
+        SpringApplication.run(EurekaServer.class);
+    }
+}
+```
+
++++
+### eureka-server
+```yaml
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+```
