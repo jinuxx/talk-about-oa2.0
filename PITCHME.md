@@ -99,24 +99,24 @@ version: 3.5.4
 
 
 +++
-[![VERSION](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)](https://spring.io/projects/spring-cloud#release-trains)
+[![VERSION](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)](https://spring.io/projects/spring-cloud#release-trainshttps://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)
 
 +++
 @title[pom.xml]
+##### pom.xml 文件配置
 
 @snap[border-dashed-black]
 ```
-&lt;mirror>
-    &lt;id>nexus-naiyun&lt;/id>
-    &lt;mirrorOf>*&lt;/mirrorOf>
-    &lt;name>Nexus Naiyun&lt;/name>
-    &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
-&lt;/mirror>
-```
-@snapend
+<!-- 乱码问题 -->
+&lt;properties>
+    &lt;java.version>1.8&lt;/java.version>
+    &lt;project.build.sourceEncoding>UTF-8&lt;/project.build.sourceEncoding>
+    &lt;project.reporting.outputEncoding>UTF-8&lt;/project.reporting.outputEncoding>
+    &lt;maven.compiler.source>1.8&lt;/maven.compiler.source>
+    &lt;maven.compiler.target>1.8&lt;/maven.compiler.target>
+    ...
+&lt;/properties>
 
-@snap[border-dashed-black]
-```
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
     &lt;mirrorOf>*&lt;/mirrorOf>
