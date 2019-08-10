@@ -367,6 +367,19 @@ Logback
 ![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
 @snapend
 
++++
+@snap[border-dashed-black]
+```yml
+logging:
+  config: https://gitee.com/jinuxx/configs/raw/master/logback-spring.xml
+  level:
+    com.naiyun.mapper: debug
+```
+@snapend
+@ul
+- 每个服务都要复制，太麻烦！
+- 每次改动所有服务都要改动
+@ulend
 ---
 
 ### Config-server
