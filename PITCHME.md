@@ -66,7 +66,7 @@
 version: 3.5.4
 
 @snap[border-dashed-black]
-```
+```xml
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
     &lt;mirrorOf>*&lt;/mirrorOf>
@@ -105,7 +105,7 @@ version: 3.5.4
 ##### pom.xml 文件配置
 
 @snap[border-dashed-black]
-```
+```xml
 ...
 &lt;parent&gt;
     &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
@@ -166,29 +166,17 @@ version: 3.5.4
 ##### pom.xml 文件配置
 
 @snap[border-dashed-black]
-```
+```xml
 ...
-&lt;!-- 声明依赖包，不引入 --&gt;
-&lt;dependencyManagement&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
-        &lt;artifactId&gt;spring-cloud-dependencies&lt;/artifactId&gt;
-        &lt;version&gt;Finchley.SR2&lt;/version&gt;
-        &lt;type&gt;pom&lt;/type&gt;
-        &lt;scope&gt;import&lt;/scope&gt;
-    &lt;/dependency&gt;
-    ...
-&lt;/dependencyManagement&gt;
-&lt;!-- 自动引入依赖包 --&gt;
-&lt;dependencies&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
-        &lt;artifactId&gt;lombok&lt;/artifactId&gt;
-        &lt;version&gt;1.18.4&lt;/version&gt;
-    &lt;/dependency&gt;
-    ...
-&lt;/dependencies&gt;
-
+&lt;build&gt;
+    &lt;finalName&gt;${project.artifactId}&lt;/finalName&gt;
+    &lt;plugins&gt;
+        &lt;plugin&gt;
+            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;
+        &lt;/plugin&gt;
+    &lt;/plugins&gt;
+&lt;/build&gt;
 ...
 ```
 @snapend
