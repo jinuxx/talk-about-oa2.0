@@ -386,7 +386,7 @@ logging:
 
 @snap[west span-45]
 @snap[text-09 text-blue]
-####  Config-server
+Config-server
 @snapend
 @snap[mt text-08 border-dashed-black]
 ```yml
@@ -420,7 +420,7 @@ spring:
 
 ---
 @snap[text-09 text-blue]
-####  common
+Common
 @snapend
 @snap[central span-100 border-dashed-black]
 ```
@@ -441,7 +441,7 @@ spring:
 
 ---
 @snap[text-09 text-blue]
-####  Gateway
+Gateway
 @snapend
 @ul
 - 负载均衡 ribbon（轮询、随机、权重、地区...）
@@ -455,7 +455,7 @@ spring:
 
 ---
 @snap[text-09 text-blue]
-#### 我的服务调到哪去了？？？
+我的服务调到哪去了？？？
 @snapend
 @snap[central span-100 border-dashed-black]
 ```yaml
@@ -468,13 +468,13 @@ eureka:
 
 ---
 @snap[text-09 text-blue]
-####  [zipkin 链路跟踪](http://192.168.8.88:9411/zipkin/)
+[zipkin 链路跟踪](http://192.168.8.88:9411/zipkin/)
 @snapend
 ![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
 
 
 ---
 @snap[text-09 text-blue]
-####  [springboot-admin](http://192.168.8.88:8800/#/wallboard)
+[springboot-admin](http://192.168.8.88:8800/#/wallboard)
 @snapend
 ![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
