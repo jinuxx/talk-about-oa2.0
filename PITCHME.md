@@ -440,6 +440,14 @@ spring:
 @snap[text-09 text-blue]
 ####  gateway
 @snapend
+@ul
+- 负载均衡 ribbon（轮询、随机、权重、地区...）
+- 请求头传递 x-forwarded
+- 接口限流 (令牌桶)
+- JWT验证
+- feign
+- ...
+@ulend
 
 ---
 @snap[text-09 text-blue]
