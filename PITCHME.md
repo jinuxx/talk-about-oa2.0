@@ -361,7 +361,7 @@ Logback
 @snapend
 
 @snap[east span-45]
-![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.png)
+![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
 @snapend
 
 
