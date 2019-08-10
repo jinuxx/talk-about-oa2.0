@@ -498,7 +498,7 @@ eureka:
 @ul
 - 代码整洁之道
 - [提问的艺术](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
-- [如何](http://www.voidcn.com/article/p-bccqqpxd-mz.html)
+- [如何把程序员变成铁饭碗](http://www.voidcn.com/article/p-bccqqpxd-mz.html)
 @snapend
 
 
