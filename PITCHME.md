@@ -354,5 +354,5 @@ Logback
 配置文件： [logback-spring.xml](https://gitee.com/jinuxx/configs/blob/master/logback-spring.xml)
 @snapend
 @ul
-每个服务都要复制，太麻烦！
+- 每个服务都要复制，太麻烦！
 @ulend
