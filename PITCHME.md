@@ -385,7 +385,7 @@ logging:
 ---
 
 @snap[west span-45]
-@snap[text-09]
+@snap[text-09 text-blue]
 ####  Config-server
 @snapend
 @snap[mt text-08 border-dashed-black]
@@ -413,6 +413,22 @@ spring:
 
 @snap[north]
 @ul
-- 还是太麻烦
+- 还是太麻烦 -> 改造 pom.xml
 @ulend
+@snapend
+
+---
+@snap[text-09 text-blue]
+####  common
+@snapend
+
+---
+@snap[text-09 text-blue]
+####  gateway
+@snapend
+
+---
+@snap[text-09 text-blue]
+####  zipkin
+####  springboot-admin
 @snapend
