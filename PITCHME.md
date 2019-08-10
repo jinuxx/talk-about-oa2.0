@@ -455,7 +455,7 @@ spring:
 
 ---
 @snap[text-09 text-blue]
-#### 服务调用轮询造成的混乱
+#### 我的服务调到哪去了？？？
 @snapend
 @snap[central span-100 border-dashed-black]
 ```yaml
@@ -468,6 +468,13 @@ eureka:
 
 ---
 @snap[text-09 text-blue]
-####  zipkin
-####  springboot-admin
+####  [zipkin 链路跟踪](http://192.168.8.88:9411/zipkin/)
 @snapend
+![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
+
+
+---
+@snap[text-09 text-blue]
+####  [springboot-admin](http://192.168.8.88:8800/#/wallboard)
+@snapend
+![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
