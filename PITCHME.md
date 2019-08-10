@@ -84,7 +84,7 @@ version: 3.5.4
 ---
 @snap[west span-45]
 ### SpringCloud
-@fa[quote-left](快速搭建分布式系统)
+@fa[quote-left text-08](快速搭建分布式系统)
 #### [Version @fa[external-link]](https://spring.io/projects/spring-cloud#release-trains)
 @ul[text-08]
 - Spring Boot: 2.0.9.RELEASE(1.5.19.RELAESE)
@@ -92,7 +92,7 @@ version: 3.5.4
 @ulend
 @snapend
 @snap[east span-45]
-![VERSION](assets/img/spring-cloud-version.png)
+[![VERSION](assets/img/spring-cloud-version.png)](https://spring.io/projects/spring-cloud#release-trains)
 @snapend
 
 
