@@ -75,8 +75,9 @@ version: 3.5.4
 &lt;/mirror>
 ```
 @snapend
-
+@snap[text-06]
 [推荐]配置文件位置: `C:\Users\<User Name>\.m2\settings.xml`
+@snapend
 +++
 
 ### GraphQL
