@@ -1,4 +1,4 @@
-@snap[text=03]
+@snap[text-03]
 ## 基于 spring cloud 的 OA2.0 框架搭建开发和问题解决
 @snapend
 ### 徐 进
