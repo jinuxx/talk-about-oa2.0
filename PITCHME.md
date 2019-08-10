@@ -421,7 +421,7 @@ spring:
 @snap[text-09 text-blue]
 ####  common
 @snapend
-@snap[east span-45 border-dashed-black]
+@snap[central span-100 border-dashed-black]
 ```
 │  ├─common
 │  │  │
