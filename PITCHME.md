@@ -348,19 +348,25 @@ eureka:
 @snapend
 
 ---
+@snap[west span-45]
 ### 日志模块
 @snap[mt]
 Logback  
 配置文件： [logback-spring.xml](https://gitee.com/jinuxx/configs/blob/master/logback-spring.xml)
 @snapend
+@snapend
+
+@snap[east span-45]
+![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.png)
+@snapend
+
 @ul
 - 每个服务都要复制，太麻烦！
 - 每次改动所有服务都要改动
-- `logging.config: https://gitee.com/jinuxx/configs/raw/master/logback-spring.xml`
-- 每个服务都要复制，太麻烦！
-- 每次改动所有服务都要改动
 @ulend
+@snapend
 
+@snap[ease mt]
 ---
 
 ### Config-server
