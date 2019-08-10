@@ -134,7 +134,7 @@ version: 3.5.4
 ##### pom.xml 文件配置
 
 @snap[border-dashed-black]
-```
+```xml
 ...
 &lt;!-- 声明依赖包，不引入 --&gt;
 &lt;dependencyManagement&gt;
@@ -179,7 +179,6 @@ version: 3.5.4
     &lt;/dependency&gt;
     ...
 &lt;/dependencyManagement&gt;
-...
 &lt;!-- 自动引入依赖包 --&gt;
 &lt;dependencies&gt;
     &lt;dependency&gt;
