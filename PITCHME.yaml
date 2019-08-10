@@ -4,4 +4,7 @@ published : true
 
 theme          : template
 
+theme-margins    : [ "15px", "0" ]
+theme-margins   :    [ "margin-top", "margin-bottom" ]
+
 theme-override : assets/css/PITCHME.css
