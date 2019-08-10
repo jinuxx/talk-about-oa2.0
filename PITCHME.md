@@ -92,7 +92,7 @@ version: 3.5.4
 @ulend
 @snapend
 @snap[east span-45]
-[![VERSION](assets/img/spring-cloud-version.png)](https://spring.io/projects/spring-cloud#release-trains)
+[![VERSION](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/spring-cloud-version.png)](https://spring.io/projects/spring-cloud#release-trains)
 @snapend
 
 
