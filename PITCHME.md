@@ -421,6 +421,7 @@ spring:
 @snap[text-09 text-blue]
 ####  common
 @snapend
+@snap[east span-45 border-dashed-black]
 ```
 │  ├─common
 │  │  │
@@ -434,7 +435,7 @@ spring:
 │  │  │
 │  │  ├─common-feign-client-------------------- feign 客户端
 ```
-
+@snapend
 ---
 @snap[text-09 text-blue]
 ####  gateway
