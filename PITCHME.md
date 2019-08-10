@@ -54,13 +54,13 @@
 ![LEGO](assets/img/lego.png)
 @snapend
 
----
++++
 
 #### Maven
 
 version: 3.5.4
 
-@snap[border-dashed-gray]
+@snap[border-dashed-black]
 ```
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
