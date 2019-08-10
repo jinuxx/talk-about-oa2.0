@@ -349,17 +349,18 @@ eureka:
 
 ---
 @snap[west span-45]
-@snap[text-08]
+@snap[text-09]
 #### 日志模块
 @snapend
-@snap[mt]
+@snap[mt text-08]
 Logback  
 配置文件：<br> &nbsp;&nbsp;[logback-spring.xml](https://gitee.com/jinuxx/configs/blob/master/logback-spring.xml)
-@snapend
+
 @ul
 - 每个服务都要复制，太麻烦！
 - 每次改动所有服务都要改动
 @ulend
+@snapend
 @snapend
 
 @snap[east span-45]
