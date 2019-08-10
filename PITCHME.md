@@ -108,21 +108,40 @@ version: 3.5.4
 @snap[border-dashed-black]
 ```
 ...
-&lt;!-- 乱码问题 -->
 &lt;properties>
     &lt;java.version>1.8&lt;/java.version>
+    &lt;!-- 乱码问题 -->
     &lt;project.build.sourceEncoding>UTF-8&lt;/project.build.sourceEncoding>
     &lt;project.reporting.outputEncoding>UTF-8&lt;/project.reporting.outputEncoding>
+    &lt;!-- 编译器版本问题 -->
     &lt;maven.compiler.source>1.8&lt;/maven.compiler.source>
     &lt;maven.compiler.target>1.8&lt;/maven.compiler.target>
     ...
     &lt;spring-cloud.version>Finchley.SR2&lt;/spring-cloud.version>
+    &lt;lombok.version>1.18.4&lt;/lombok.version>
 &lt;/properties>
 ...
+&lt;!-- 自动引入依赖包 -->
 &lt;dependencies>
+    &lt;dependency>
+        &lt;groupId>org.projectlombok&lt;/groupId>
+        &lt;artifactId>lombok&lt;/artifactId>
+        &lt;version>${lombok.version}&lt;/version>
+    &lt;/dependency>
     ...
 &lt;/dependencies>
 
+...
+```
+@snapend
+
++++
+@title[pom.xml]
+##### pom.xml 文件配置
+@snap[border-dashed-black]
+```
+...
+&lt;!-- 声明依赖包，不引入 -->
 &lt;dependencyManagement>
     &lt;dependency>
         &lt;groupId>org.springframework.cloud&lt;/groupId>
@@ -133,8 +152,6 @@ version: 3.5.4
     &lt;/dependency>
     ...
 &lt;/dependencyManagement>
-
-
 ...
 ```
 @snapend
