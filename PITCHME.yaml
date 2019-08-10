@@ -1,5 +1,3 @@
 highlight : mono-blue
 title : "Spring Cloud Issues"
 published : true
-
-theme-override : assets/css/PITCHME.css
