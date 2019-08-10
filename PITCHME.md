@@ -233,6 +233,18 @@ version: 3.5.4
 
 ---
 ### eureka-server
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+    </dependency>
+</dependencies>
+```
+
++++
+### eureka-server
+@snap[border-dashed-black]
 ```java
 package com.naiyun;
 
@@ -254,9 +266,12 @@ public class EurekaServer {
     }
 }
 ```
+@snapend
+
 
 +++
 ### eureka-server
+@snap[border-dashed-black]
 ```yaml
 server:
   port: 8761
@@ -266,3 +281,4 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
 ```
+@snapend
