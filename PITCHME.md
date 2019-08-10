@@ -102,6 +102,46 @@ version: 3.5.4
 [![VERSION](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)](https://spring.io/projects/spring-cloud#release-trainshttps://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)
 
 +++
+
+├─naiyun-oa------------------------------------ 父项目，公共依赖
+│  │
+│  ├─eureka-server----------------------------- 微服务注册中心
+│  │
+│  ├─gateway----------------------------------- 微服务网关
+│  │
+│  ├─config-server----------------------------- 配置中心
+│  │
+│  ├─zipkin------------------------------------ 微服务链路追踪，由 docker 启动
+│  │
+│  ├─admin-monitor----------------------------- 监控中心
+│  │
+│  ├─common
+│  │  │
+│  │  ├─common-log----------------------------- logback日志配置 想办法把配置抽出来
+│  │  │
+│  │  ├─common-base---------------------------- 静态常量和配置与大部分共用工具类
+│  │  │
+│  │  ├─common-web----------------------------- web 部分
+│  │  │
+│  │  ├─common-jwt----------------------------- jwt 部分
+│  │  │
+│  │  ├─common-feign-client-------------------- feign 客户端
+│  │  │ 
+│  ├─services
+│  │  │
+│  │  ├─service-website------------------------ 网站基础
+│  │  │
+│  │  ├─service-user--------------------------- 用户
+│  │  │
+│  │  ├─service-bbs---------------------------- 论坛
+│  │  │
+│  │  ├─service-order-------------------------- 订单
+│  │  │
+│  │  ├─service-finance------------------------ 财务
+│  │  │
+│  │  ├─service-personnel---------------------- 人事
+
+---
 ##### pom.xml 文件配置
 
 @snap[border-dashed-black]
