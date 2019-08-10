@@ -107,7 +107,8 @@ version: 3.5.4
 
 @snap[border-dashed-black]
 ```
-<!-- 乱码问题 -->
+...
+&lt;!-- 乱码问题 -->
 &lt;properties>
     &lt;java.version>1.8&lt;/java.version>
     &lt;project.build.sourceEncoding>UTF-8&lt;/project.build.sourceEncoding>
@@ -115,13 +116,25 @@ version: 3.5.4
     &lt;maven.compiler.source>1.8&lt;/maven.compiler.source>
     &lt;maven.compiler.target>1.8&lt;/maven.compiler.target>
     ...
+    &lt;spring-cloud.version>Finchley.SR2&lt;/spring-cloud.version>
 &lt;/properties>
+...
+&lt;dependencies>
+    ...
+&lt;/dependencies>
 
-&lt;mirror>
-    &lt;id>nexus-naiyun&lt;/id>
-    &lt;mirrorOf>*&lt;/mirrorOf>
-    &lt;name>Nexus Naiyun&lt;/name>
-    &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
-&lt;/mirror>
+&lt;dependencyManagement>
+    &lt;dependency>
+        &lt;groupId>org.springframework.cloud&lt;/groupId>
+        &lt;artifactId>spring-cloud-dependencies&lt;/artifactId>
+        &lt;version>${spring-cloud.version}&lt;/version>
+        &lt;type>pom&lt;/type>
+        &lt;scope>import&lt;/scope>
+    &lt;/dependency>
+    ...
+&lt;/dependencyManagement>
+
+
+...
 ```
 @snapend
