@@ -85,8 +85,10 @@ version: 3.5.4
 @snap[west span-45]
 ### SpringCloud
 @fa[quote-left text-08](快速搭建分布式系统)
-#### [Version @fa[external-link]](https://spring.io/projects/spring-cloud#release-trains)
-@ul[text-08]
+@snap[mt]
+#### Version
+@snapend
+@ul[text-08 mt]
 - Spring Boot: 2.0.9.RELEASE(1.5.19.RELAESE)
 - Spring Cloud: Finchley.SR2(Edgware.SR6)
 @ulend
