@@ -356,12 +356,13 @@ Logback
 @ul
 - 每个服务都要复制，太麻烦！
 - 每次改动所有服务都要改动
+- ```yml
+  logging:
+    config: https://gitee.com/jinuxx/configs/raw/master/logback-spring.xml
+  ```
 @ulend
 
-```yml
-logging:
-  config: https://gitee.com/jinuxx/configs/raw/master/logback-spring.xml
-```
+
 @ul
 - 每个服务都要复制，太麻烦！
 - 每次改动所有服务都要改动
