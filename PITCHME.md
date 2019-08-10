@@ -2,15 +2,13 @@
 ## 基于 spring cloud 的 OA2.0 框架搭建开发和问题解决
 @snapend
 @snap[text-09]
-基于 spring cloud 的 OA2.0 框架搭建开发和问题解决
+徐  进
 @snapend
 
 
 ---?color=linear-gradient(90deg, white 50%, black 50%)
 
 @snap[west span-40 text-center]
-
-@fa[quote-left](工欲善其事<br>必先利其器)
 
 @ul[text-07 mt]
 - 框架搭建过程中的思路
@@ -32,6 +30,33 @@
 @box[bg-gold](Part 3 # 规范与约定)
 @snapend
 
+
+---
+
+@snap[north span-100 text-08]
+## 工欲善其事 必先利其器
+Simple, fast customization for any Slide Deck.
+@snapend
+
+@snap[west span-33 text-center]
+@box[border-solid-gray](Simply tweak<br>`theme*` props)
+@snapend
+
+@snap[midpoint span-33 text-center]
+@box[border-solid-gray](In your `PITCHME.yaml`)
+@snapend
+
+@snap[east span-33 text-center]
+@box[border-solid-gray](For a custom<br>Look-n-Feel)
+@snapend
+
+@snap[south span-100 text-07]
+Customize the slide background, fonts, colors, and more.
+@snapend
+
+@snap[south span-26]
+![LEGO](assets/img/lego.png)
+@snapend
 
 ---
 
