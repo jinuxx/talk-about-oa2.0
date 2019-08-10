@@ -43,11 +43,11 @@
 @snapend
 
 @snap[midpoint span-33 text-center]
-@box[border-solid-gray](Intellij Idea &gt; 2018.1.5)
+@box[border-solid-gray](Intellij Idea <br>&gt; 2018.1.5)
 @snapend
 
 @snap[east span-33 text-center]
-@box[border-solid-gray](Maven (3.5.4.])
+@box[border-solid-gray](Maven [3.5.4., ))
 @snapend
 
 @snap[south span-100 text-07 text-right]
@@ -65,7 +65,7 @@
 
 version: 3.5.4
 
-@snap[border-dashed-gray]
+@snap[border-dashed-black]
 ```
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
@@ -76,20 +76,7 @@ version: 3.5.4
 ```
 @snapend
 
-
----
-
-```java
-    <modules>
-        <module>common</module>
-        <module>config-server</module>
-        <module>eureka-server</module>
-        <module>gateway</module>
-        <module>services</module>
-        <module>admin-monitor</module>
-        <module>gateway-app</module>
-    </modules>
-```
+[推荐]配置文件位置: `C:\Users\<User Name>\.m2\settings.xml`
 +++
 
 ### GraphQL
