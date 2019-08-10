@@ -388,7 +388,7 @@ logging:
 @snap[text-09]
 ####  Config-server
 @snapend
-@snap[mt text-08]
+@snap[mt text-08 border-dashed-black]
 ```yml
 spring:
   profiles:
@@ -398,7 +398,7 @@ spring:
 @snapend
 @snapend
 
-@snap[east span-45]
+@snap[east span-45 border-dashed-black]
 ```yml
 spring:
   profiles:
@@ -407,6 +407,6 @@ spring:
     name: eureka-server
   cloud:
     config:
-      uri: http://naiyun:naiyun@192.168.8.88:8000
+      uri: http://192.168.8.88:8000
 ```
 @snapend
