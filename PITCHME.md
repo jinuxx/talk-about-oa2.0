@@ -1,5 +1,5 @@
 @snap[text-09]
-## 基于 spring cloud 的 OA2.0 框架搭建开发和问题解决
+## 基于 Spring Cloud 的 OA2.0 框架搭建和问题解决
 @snapend
 @snap[text-09]
 徐  进
@@ -12,7 +12,7 @@
 @ul[text-07 mt]
 - 框架搭建过程中的思路
 - 遇到的问题
-- 我会用到的工具
+- 用到的工具
 @ulend
 
 @snapend
@@ -64,7 +64,7 @@
 version: 3.5.4
 
 @snap[border-dashed-black]
-```xml
+```xml 
 &lt;mirror>
     &lt;id>nexus-naiyun&lt;/id>
     &lt;mirrorOf>*&lt;/mirrorOf>
@@ -418,6 +418,20 @@ spring:
 @ulend
 @snapend
 
++++
+@snap[east span-45 border-dashed-black]
+```yml
+spring:
+  profiles:
+    active: @active.profile@
+  application:
+    name: @pom.artifactId@
+  cloud:
+    config:
+      uri: @config-server.url@
+      fail-fast: true  # 启动遇错，快速失败
+```
+
 ---
 @snap[text-09 text-blue]
 Common
@@ -470,14 +484,14 @@ eureka:
 @snap[text-09 text-blue]
 [zipkin 链路跟踪](http://192.168.8.88:9411/zipkin/)
 @snapend
-![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
+![zipkin](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/zipkin.jpg)
 
 
 ---
 @snap[text-09 text-blue]
-[springboot-admin](http://192.168.8.88:8800/#/wallboard)
+[spring-boot-admin(SBA)](http://192.168.8.88:8800/#/wallboard)
 @snapend
-![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
+![spring-boot-admin](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/spring-boot-admin)
 
 ---
 @snap[text-09]
