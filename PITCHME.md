@@ -86,7 +86,7 @@ version: 3.5.4
 ### SpringCloud
 @fa[quote-left](快速搭建分布式系统)
 @snap[west]
-#### [Version @fa[external-link](https://spring.io/projects/spring-cloud#release-trains)
+#### [Version @fa[external-link]](https://spring.io/projects/spring-cloud#release-trains)
 @ul
 - Spring Boot: 2.0.9.RELEASE(1.5.19.RELAESE)
 - Spring Cloud: Finchley.SR2(Edgware.SR6)
