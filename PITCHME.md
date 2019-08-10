@@ -478,3 +478,47 @@ eureka:
 [springboot-admin](http://192.168.8.88:8800/#/wallboard)
 @snapend
 ![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
+
+---
+@snap[text-09]
+@ul
+- 代码整洁之道
+- [提问的艺术](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
+- [如何](http://www.voidcn.com/article/p-bccqqpxd-mz.html)
+@snapend
+
+
++++
+@snap[text-09 text-blue]
+代码整洁之道
+@snapend
+@ul
+- 可读性高
+- 注释
+- 方法长度
+- 测试！测试！
+@ulend
+
++++
+@snap[text-09 text-blue]
+可读性高的代码才有可能是美的代码
+@snapend
+@ul
+- 开发成本，维护成本
+- 任何一个傻瓜都能写出计算机可以理解的代码。唯有写出人类容易理解的代码，才是优秀的程序员
+- 讲故事
+@ulend
+
++++
+@snap[text-09 text-blue]
+注释是一把双刃剑
+@snapend
+@ul
+- 注释不会美化糟糕的代码
+- TODO FIXME XXX
+- 别说废话（喃喃自语、多余、误导性、循规式）
+- 注释掉的代码
+@ulend
+
+---
+Thanks~
