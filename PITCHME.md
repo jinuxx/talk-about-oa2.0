@@ -414,6 +414,7 @@ spring:
 @snap[north span-100]
 @ul
 - 还是太麻烦 -> 改造 pom.xml
+- 高可用 HA
 @ulend
 @snapend
 
@@ -425,7 +426,7 @@ spring:
 ```
 │  ├─common
 │  │  │
-│  │  ├─common-log----------------------------- logback日志配置 想办法把配置抽出来
+│  │  ├─common-log----------------------------- logback日志配置
 │  │  │
 │  │  ├─common-base---------------------------- 静态常量和配置与大部分共用工具类
 │  │  │
@@ -436,9 +437,11 @@ spring:
 │  │  ├─common-feign-client-------------------- feign 客户端
 ```
 @snapend
+
+
 ---
 @snap[text-09 text-blue]
-####  gateway
+####  Gateway
 @snapend
 @ul
 - 负载均衡 ribbon（轮询、随机、权重、地区...）
@@ -448,6 +451,20 @@ spring:
 - feign
 - ...
 @ulend
+
+
+---
+@snap[text-09 text-blue]
+#### 服务调用轮询造成的混乱
+@snapend
+@snap[central span-100 border-dashed-black]
+```yaml
+eureka:
+  instance:
+    metadataMap:
+      zone: ${spring.cloud.client.hostname}
+```
+@snapend
 
 ---
 @snap[text-09 text-blue]
