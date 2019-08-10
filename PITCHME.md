@@ -112,6 +112,7 @@ version: 3.5.4
     &lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt;
     &lt;version&gt;2.0.9.RELEASE&lt;/version&gt;
 &lt;/parent&gt;
+&lt;!-- 聚合工程/传递依赖 --&gt;
 &lt;packaging&gt;pom&lt;/packaging&gt;
 &lt;properties&gt;
     &lt;java.version&gt;1.8&lt;/java.version&gt;
