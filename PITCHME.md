@@ -358,6 +358,7 @@ Logback
 - 每个服务都要复制，太麻烦！
 - 每次改动所有服务都要改动
 @ulend
+@snapend
 
 @snap[east span-45]
 ![ctrl-c-v](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/ctrl-c-v.jpg)
