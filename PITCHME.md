@@ -93,7 +93,7 @@ version: 3.5.4
 @ulend
 @snapend
 @snap[east]
-![image](assets\img\spring-cloud-version.png)
+![image](assets/img/spring-cloud-version.png)
 @snapend
 
 
