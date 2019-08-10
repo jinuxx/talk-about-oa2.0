@@ -102,7 +102,7 @@ version: 3.5.4
 [![VERSION](https://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)](https://spring.io/projects/spring-cloud#release-trainshttps://raw.githubusercontent.com/jinuxx/spring-cloud-issues/master/assets/img/oa-2.0-framework.png)
 
 +++
-
+```
 ├─naiyun-oa------------------------------------ 父项目，公共依赖
 │  │
 │  ├─eureka-server----------------------------- 微服务注册中心
@@ -140,6 +140,7 @@ version: 3.5.4
 │  │  ├─service-finance------------------------ 财务
 │  │  │
 │  │  ├─service-personnel---------------------- 人事
+```
 
 ---
 ##### pom.xml 文件配置
