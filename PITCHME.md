@@ -291,7 +291,7 @@ eureka:
 
 
 ---
-### service 准备业务模块
+### services 准备业务模块
 @snap[border-dashed-black]
 ```xml
 &lt;packaging&gt;pom&lt;/packaging&gt;
@@ -346,3 +346,11 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 ```
 @snapend
+
+---
+### 日志模块
+@snap[mt]
+Logback  
+配置文件： [logback-spring.xml](https://gitee.com/jinuxx/configs/blob/master/logback-spring.xml)
+@snapend
+每个服务都要复制，太麻烦！
