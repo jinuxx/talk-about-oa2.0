@@ -39,19 +39,15 @@
 @snapend
 
 @snap[west span-33 text-center]
-@box[border-solid-gray](Simply tweak<br>`theme*` props)
+@box[border-solid-gray](JDK 1.8.***)
 @snapend
 
 @snap[midpoint span-33 text-center]
-@box[border-solid-gray](In your `PITCHME.yaml`)
+@box[border-solid-gray](Intellij Idea &gt; 2018.1.5)
 @snapend
 
 @snap[east span-33 text-center]
-@box[border-solid-gray](For a custom<br>Look-n-Feel)
-@snapend
-
-@snap[south span-100 text-07]
-Customize the slide background, fonts, colors, and more.
+@box[border-solid-gray](Maven (3.5.4.])
 @snapend
 
 @snap[south span-26]

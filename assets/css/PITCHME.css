@@ -5,9 +5,19 @@
 .border-solid-black {
     border-radius: 16px;
     border: 1px solid black !important;
-  }
+}
   
-.border-solid-black {
+.border-dashed-black {
     border-radius: 16px;
     border: 1px dashed black !important;
+}
+
+.border-solid-gray {
+    border-radius: 16px;
+    border: 1px solid #C0C0C0 !important;
+}
+  
+.border-dashed-gray {
+    border-radius: 16px;
+    border: 1px dashed #C0C0C0 !important;
 }
