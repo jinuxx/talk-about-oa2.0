@@ -154,4 +154,17 @@ version: 3.5.4
 &lt;/dependencyManagement>
 ...
 ```
+<pre>
+```xml
+    <modules>
+        <module>common</module>
+        <module>config-server</module>
+        <module>eureka-server</module>
+        <module>gateway</module>
+        <module>services</module>
+        <module>admin-monitor</module>
+        <module>gateway-app</module>
+    </modules>
+```
+</pre>
 @snapend
