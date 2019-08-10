@@ -380,6 +380,33 @@ logging:
 - 每个服务都要复制，太麻烦！
 - 每次改动所有服务都要改动
 @ulend
+
+
 ---
 
-### Config-server
+@snap[west span-45]
+@snap[text-09]
+####  Config-server
+@snapend
+@snap[mt text-08]
+```yml
+spring:
+  profiles:
+    # 使用 svn 控制
+    active: subversion
+```
+@snapend
+@snapend
+
+@snap[east span-45]
+```yml
+spring:
+  profiles:
+    active: dev
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      uri: http://naiyun:naiyun@192.168.8.88:8000
+```
+@snapend
