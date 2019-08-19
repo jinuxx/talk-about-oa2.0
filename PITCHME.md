@@ -2,7 +2,6 @@
 ## 基于 Spring Cloud 的 OA2.0 框架搭建和问题解决
 @snapend
 @snap[text-09]
-徐  进
 @snapend
 
 
