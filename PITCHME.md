@@ -40,7 +40,7 @@
 @snapend
 
 @snap[midpoint span-33 text-center]
-@box[border-solid-gray](Intellij Idea <br>&gt; 2018.1.5)
+@box[border-solid-gray](Intellij Idea <br>> 2018.1.5)
 @snapend
 
 @snap[east span-33 text-center]
@@ -155,25 +155,25 @@ version: 3.5.4
 @snap[border-dashed-black]
 ```xml
 ...
-&lt;parent&gt;
-    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
-    &lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt;
-    &lt;version&gt;2.0.9.RELEASE&lt;/version&gt;
-&lt;/parent&gt;
-&lt;!-- 聚合工程/传递依赖 --&gt;
-&lt;packaging&gt;pom&lt;/packaging&gt;
-&lt;properties&gt;
-    &lt;java.version&gt;1.8&lt;/java.version&gt;
-    &lt;!-- 乱码问题 --&gt;
-    &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;
-    &lt;project.reporting.outputEncoding&gt;UTF-8&lt;/project.reporting.outputEncoding&gt;
-    &lt;!-- 编译器版本问题 --&gt;
-    &lt;maven.compiler.source&gt;1.8&lt;/maven.compiler.source&gt;
-    &lt;maven.compiler.target&gt;1.8&lt;/maven.compiler.target&gt;
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.0.9.RELEASE</version>
+</parent>
+<!-- 聚合工程/传递依赖 -->
+<packaging>pom</packaging>
+<properties>
+    <java.version>1.8</java.version>
+    <!-- 乱码问题 -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- 编译器版本问题 -->
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     ...
-    &lt;spring-cloud.version&gt;Finchley.SR2&lt;/spring-cloud.version&gt;
-    &lt;lombok.version&gt;1.18.4&lt;/lombok.version&gt;
-&lt;/properties&gt;
+    <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+    <lombok.version>1.18.4</lombok.version>
+</properties>
 
 ...
 ```
@@ -186,27 +186,27 @@ version: 3.5.4
 @snap[border-dashed-black]
 ```xml
 ...
-&lt;!-- 声明依赖包，不引入 --&gt;
-&lt;dependencyManagement&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
-        &lt;artifactId&gt;spring-cloud-dependencies&lt;/artifactId&gt;
-        &lt;version&gt;${spring-cloud.version}&lt;/version&gt;
-        &lt;type&gt;pom&lt;/type&gt;
-        &lt;scope&gt;import&lt;/scope&gt;
-    &lt;/dependency&gt;
+<!-- 声明依赖包，不引入 -->
+<dependencyManagement>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+    </dependency>
     ...
-&lt;/dependencyManagement&gt;
+</dependencyManagement>
 ...
-&lt;!-- 自动引入依赖包 --&gt;
-&lt;dependencies&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
-        &lt;artifactId&gt;lombok&lt;/artifactId&gt;
-        &lt;version&gt;${lombok.version}&lt;/version&gt;
-    &lt;/dependency&gt;
+<!-- 自动引入依赖包 -->
+<dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+    </dependency>
     ...
-&lt;/dependencies&gt;
+</dependencies>
 
 ...
 ```
@@ -220,15 +220,15 @@ version: 3.5.4
 @snap[border-dashed-black]
 ```xml
 ...
-&lt;build&gt;
-    &lt;finalName&gt;${project.artifactId}&lt;/finalName&gt;
-    &lt;plugins&gt;
-        &lt;plugin&gt;
-            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
-            &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;
-        &lt;/plugin&gt;
-    &lt;/plugins&gt;
-&lt;/build&gt;
+<build>
+    <finalName>${project.artifactId}</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
 ...
 ```
 @snapend
@@ -241,12 +241,12 @@ version: 3.5.4
 ### eureka-server
 @snap[border-dashed-black]
 ```xml
-&lt;dependencies&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
-        &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&lt;/artifactId&gt;
-    &lt;/dependency&gt;
-&lt;/dependencies&gt;
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+    </dependency>
+</dependencies>
 ```
 @snapend
 
@@ -293,17 +293,17 @@ eureka:
 ### services 准备业务模块
 @snap[border-dashed-black]
 ```xml
-&lt;packaging&gt;pom&lt;/packaging&gt;
-&lt;dependencies&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
-        &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-client&lt;/artifactId&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
-        &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
-    &lt;/dependency&gt;
-&lt;/dependencies&gt;
+<packaging>pom</packaging>
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+</dependencies>
 ```
 @snapend
 
