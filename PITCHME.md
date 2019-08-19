@@ -64,12 +64,12 @@ version: 3.5.4
 
 @snap[border-dashed-black]
 ```xml 
-&lt;mirror>
-    &lt;id>nexus-naiyun&lt;/id>
-    &lt;mirrorOf>*&lt;/mirrorOf>
-    &lt;name>Nexus Naiyun&lt;/name>
-    &lt;url>http://192.168.1.130:58082/nexus/content/groups/public/&lt;/url>
-&lt;/mirror>
+<mirror>
+    <id>nexus-naiyun</id>
+    <mirrorOf>*</mirrorOf>
+    <name>Nexus Naiyun</name>
+    <url>http://192.168.1.130:58082/nexus/content/groups/public/</url>
+</mirror>
 ```
 @snapend
 
